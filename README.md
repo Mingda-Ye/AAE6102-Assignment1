@@ -6,11 +6,11 @@
 
 1. **Open air results:**
 
-   ![Open Air Results](media/image1.png)
+   ![Open Air Results](image/task1_open.png)
 
 2. **Urban results:**
 
-   ![Urban Results](media/image2.png)
+   ![Urban Results](image/task1_urban.png)
 
 ## Task 2 -- Tracking
 
@@ -18,13 +18,13 @@
 
 1. **Open air results:**
 
-   ![Open Air Tracking Results](media/image3.png)
+   ![Open Air Tracking Results](image/task2_open.png)
 
-2. **Urban results:**
+3. **Urban results:**
 
-   ![Urban Tracking Results](media/image4.png)
+   ![Urban Tracking Results](image/task2_urban.png)
 
-3. **The impact of urban interference on the correlation peaks:**
+4. **The impact of urban interference on the correlation peaks:**
 
    a. Firstly, the values of Auto-correlation functions (ACF) in urban areas are much smaller than most of the ACF values in open sky areas, which is because the propagation of signals in open sky areas suffered less interference.
 
@@ -42,25 +42,25 @@
 
    a. **Position**
 
-   ![Open Air Position](media/image5.png)
+   ![Open Air Position](image/open_pos.png)
 
-   ![Open Air Position Graph](media/image6.png)
+   ![Open Air Position Graph](image/LS_open.png)
 
    b. **Velocity**
 
-   ![Open Air Velocity](media/image7.png)
+   ![Open Air Velocity](image/vel_open.png)
 
 2. **Urban results:**
 
    a. **Position**
 
-   ![Urban Position](media/image8.png)
+   ![Urban Position](image/urban_pos.png)
 
-   ![Urban Position Graph](media/image9.png)
+   ![Urban Position Graph](image/LS_urban.png)
 
    b. **Velocity**
 
-   ![Urban Velocity](media/image10.png)
+   ![Urban Velocity](image/vel_urban.png)
 
 3. **The impact of multipath effect on the WLS solution:**
 

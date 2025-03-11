@@ -16,7 +16,7 @@
 
 **Adapt the tracking loop (DLL) to produce correlation plots and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. (Multiple correlators must be implemented for plotting the correlation function)**
 
-- **Following images shows the Auto-correlation fucntion of multiple correlators for satellites tracked in the two experiments. For each experiment, results of four satellites are plotted, each dotted line denote an epoch of 10s interval within the 90s recorded data**
+- **Following images show the Auto-correlation fucntion of multiple correlators for satellites tracked in the two experiments. For each experiment, results of four satellites are plotted, each dotted line denote an epoch of 10s interval within the 90s recorded data**
 
 1. **Open air results:**
 

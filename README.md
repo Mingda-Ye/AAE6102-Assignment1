@@ -32,7 +32,7 @@
 
    a. Firstly, the values of Auto-correlation functions (ACF) in urban areas are much smaller than most of the ACF values in open sky areas, which is because the propagation of signals in open sky areas suffered less interference.
 
-   b. Secondly, the variation of ACF values in urban areas are less than that in open sky areas. This is probably due to that the signals that encounter interference in urban environments are not tracked, only the reliable satellites are received, causing a survivorship bias.
+   b. Secondly, the variation of ACF values in urban areas are less than that in open sky areas. This is probably due to that the antenna and receiver used in urban areas is better than that used in open sky experiment, making the receiving quality higher for tracked satellites.
 
 ## Task 3 -- Navigation data decoding
 

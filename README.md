@@ -16,15 +16,17 @@
 
 **Adapt the tracking loop (DLL) to produce correlation plots and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. (Multiple correlators must be implemented for plotting the correlation function)**
 
+- **Following images shows the Auto-correlation fucntion of multiple correlators for satellites tracked in the two experiments. For each experiment, results of four satellites are plotted, each dotted line denote an epoch of 10s interval within the 90s recorded data**
+
 1. **Open air results:**
 
    ![Open Air Tracking Results](image/task2_open.png)
 
-3. **Urban results:**
+2. **Urban results:**
 
    ![Urban Tracking Results](image/task2_urban.png)
 
-4. **The impact of urban interference on the correlation peaks:**
+3. **The impact of urban interference on the correlation peaks:**
 
    a. Firstly, the values of Auto-correlation functions (ACF) in urban areas are much smaller than most of the ACF values in open sky areas, which is because the propagation of signals in open sky areas suffered less interference.
 

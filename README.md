@@ -32,12 +32,9 @@
 
 ## Task 3 -- Navigation data decoding
 
-- **Table showing the decoded ephemeris parameters for urban experiment:**
-
- # Task 3 -- Navigation Data Decoding
-
 **Decode the navigation message and extract key parameters, such as ephemeris data, for at least one satellite.**
 
+- **Table showing the decoded ephemeris parameters for urban experiment:**
 
 The following table shows the decoded ephemeris parameters for the urban experiment:
 

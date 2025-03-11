@@ -36,6 +36,9 @@
 
  # Task 3 -- Navigation Data Decoding
 
+**Decode the navigation message and extract key parameters, such as ephemeris data, for at least one satellite.**
+
+
 The following table shows the decoded ephemeris parameters for the urban experiment:
 
 | PRN  | C_ic                  | omega_0               | C_is                  | i_0                   | C_rc   | omega                | omegaDot             | IODE_sf3 | iDot                  | idValid | weekNumber | Accuracy | health | T_GD                  | IODC | t_oc   | a_f2 | a_f1                  | a_f0                  | IODE_sf2 | C_rs     | deltan                | M_0                   | C_uc                  | e                     | C_us                  | sqrtA           | t_oe   | TOW     |
@@ -46,6 +49,9 @@ The following table shows the decoded ephemeris parameters for the urban experim
 | PRN18| -2.5331974029541e-07  | 3.12182125430595      | 3.53902578353882e-08  | 0.954642600078998     | 280.15625 | 1.39301587576552     | -8.61071581373341e-09 | 56       | -1.61792453590826e-10 | [2,0,3] | 1032       | 0        | 0      | -5.58793544769287e-09 | 244  | 453600 | 0    | 3.18323145620525e-12  | 5.98649494349957e-05  | 56       | -113.875  | 4.72019661513546e-09  | 0.259840988631583     | -6.10947608947754e-06 | 0.0154198176460341    | 5.11482357978821e-06  | 5153.69931793213 | 453600 | 449352  |
 
 ## Task 4 -- Position and velocity estimation
+
+**Using the pseudorange measurements obtained from tracking, implement the Weighted Least Squares (WLS) algorithm to compute user’s position and velocity. Plot the user position and velocity, compare it to the provided ground truth values, and comment on the impact of multipath effects on the WLS solution.**
+
 
 1. **Open air results:**
 
@@ -76,6 +82,8 @@ The following table shows the decoded ephemeris parameters for the urban experim
    The positioning errors in open sky areas are mostly less than 30 meters, while in urban areas are large to 100 meters. In urban areas, the error in East direction is extremely large, which is due to the blockage of satellites in the west by buildings, which makes the PDOP very large in urban areas.
 
 ## Task 5 -- Kalman filter-based positioning
+
+**Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.**
 
 1. **Open air results:**
 

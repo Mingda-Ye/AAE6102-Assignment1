@@ -1,5 +1,7 @@
 # Assignment 1
 
+# Matlab code can be found in ![Code folder](/GPS_L1_CA) folder, 
+
 ## Task 1 -- Acquisition
 
 **Process the IF data using a GNSS SDR and generate initial acquisition outputs.**
